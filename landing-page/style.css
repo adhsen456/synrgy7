@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #F1F3FF;
+}
+
+#head {
+    background-color: #F1F3FF;
+}
+
+#head>.container>.row>.col {
+    height: 400px;
+}
+
+#description, #why-us, #testimonial, #rent, #faq {
+    margin-bottom: 8rem;
+}
+
+#description {
+    background-color: white;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-success {
+    background-color: #5CB85F;
+}
+
+.title {
+    margin-left: 136px;
+    margin-right: 0;
+}
+
+.rectangle-nav {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+.car { 
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index: 1;
+    top: -40px;
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle-car {
+    width: 704px;
+    height: 250px;
+    border-top-left-radius: 60px;
+    background-color: #0D28A6;
+    z-index: 0;
+    margin-bottom: 0;
+    top: -260px;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.woman{
+    top: 150px;
+    left: 130px;
+}
+
+.big-circle {
+    background-color: #92D094;
+    height: 133px;
+    width: 133px;
+    top: -250px;
+    left: 0;
+}
+
+.medium-circle {
+    background-color: #F9CC00;
+    height: 48px;
+    width: 48px;
+    left: 100px;
+}
+
+.small-circle {
+    background-color: #FA2C5A;
+    height: 25px;
+    width: 25px;
+    top: -420px;
+    left: 420px;
+}
+
+.testi {
+    height: 270px;
+    width: 619px;
+    background-color: #F1F3FF;
+}
+
+.owl-carousel .owl-item img {
+    display: block !important;
+    width: auto !important;
+}
+
+.avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background: url('assets/img_photo.png');
+}
+
+.info-box {
+    background-color: #0D28A6;
+}
